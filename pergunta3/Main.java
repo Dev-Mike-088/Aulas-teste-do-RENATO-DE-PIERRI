@@ -1,3 +1,5 @@
+//Crie uma ficha contendo nome, curso e turma.
+
 import java.util.Scanner;
 
 public class Main {

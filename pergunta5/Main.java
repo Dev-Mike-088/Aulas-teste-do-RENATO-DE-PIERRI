@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         String situacao;
         String nome = "Mikael Machado Souza";
-        int idade = 18;
-        double altura = 1.78;
+        int idade = 20;
+        double altura = 1.67;
         double nota = 9.5;
         boolean situacaoMatricula = true; // true para matriculado, false para não matriculado
 
@@ -14,7 +14,7 @@ public class Main {
             situacao = "Não matriculado";
         }
 
-        System.out.println("dados do aluno:");
+        System.out.println("Dados do aluno:");
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
         System.out.println("Altura: " + altura + " metros");
