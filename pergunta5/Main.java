@@ -1,3 +1,4 @@
+//Declare variáveis para representar nome, idade, altura, nota e situação de matrícula de um aluno. Mostre todos os valores.
 public class Main {
     public static void main(String[] args) {
         String situacao;
@@ -21,4 +22,3 @@ public class Main {
         System.out.println("Situação de matrícula: " + situacao);
     }
 }
-//Declare variáveis para representar nome, idade, altura, nota e situação de matrícula de um aluno. Mostre todos os valores.
