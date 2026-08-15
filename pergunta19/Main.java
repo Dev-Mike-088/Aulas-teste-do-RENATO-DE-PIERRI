@@ -7,9 +7,9 @@ public class Main{
         System.out.print("Escolha o que deseja fazer com os números:\n1 - Soma\n2 - Subtração\n3 - Multiplicação\n4 - Divisão\n5 - Resto da divisão\nDigite o número da opção desejada: ");
         int opcao = sc.nextInt();
         System.out.print("Digite o primeiro número: ");
-        int num1 = sc.nextInt();
+        double num1 = sc.nextDouble();
         System.out.print("Digite o segundo número: ");
-        int num2 = sc.nextInt(); 
+        double num2 = sc.nextDouble(); 
 
         switch(opcao){
             case 1:

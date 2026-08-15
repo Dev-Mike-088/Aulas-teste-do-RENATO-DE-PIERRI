@@ -1,5 +1,4 @@
 //Leia nome e sobrenome e apresente as duas iniciais.
-
 import java.util.Scanner;
 public class Main{
     public static void main(){
