@@ -23,7 +23,7 @@ public class Carro{
             velocidade = velocidade + 10;
             combustivel = combustivel - 8.5;
         } else{
-            System.out.println("ligue o carro antes de acelerar, por favor");
+            System.out.println("ligue o carro antes de executar qualquer ação, por favor");
         }
     }
     
@@ -32,7 +32,15 @@ public class Carro{
             System.out.println("Freando.......");
             velocidade = velocidade - 10;
         } else{
-            System.out.println("ligue o carro antes de executar qualquer açãop, por favor");
+            System.out.println("ligue o carro antes de executar qualquer ação, por favor");
+        }
+    }
+
+    public void buzinar(){
+        if (ligado){
+            System.out.println("Biiiiiiiiiipppppppppppp");
+        } else{
+            System.out.println("ligue o carro antes de executar qualquer ação, por favor");
         }
     }
 
