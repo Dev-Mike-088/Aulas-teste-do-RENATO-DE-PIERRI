@@ -44,6 +44,7 @@ public class Carro{
         System.out.println("Ano: " + ano);
         System.out.println("Combustivel: " + combustivel + "L");
         System.out.println("Velocidade: " + velocidade);
-        System.out.println("Está ligado: " + ligado + "\n");        
+        System.out.println("Está ligado: " + ligado + "\n");
+        System.out.println();        
     }
 }
