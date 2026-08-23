@@ -16,10 +16,12 @@ public class Main {
         ferrari.acelerar();
         ferrari.acelerar();
         ferrari.acelerar();
+        ferrari.buzinar();
         ferrari.mostrarDados();
         
         System.out.println ("Freando ...");
         ferrari.frear();
+        ferrari.buzinar();
         
         ferrari.mostrarDados();
 
